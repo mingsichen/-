@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "rand/pages/load/load",
+    "tool/main/main",
+    "tool/font/font",
+    "tool/detail/detail",
+    "tool/share/share",
+    "tool2/index/index",
+    "tool2/font/font",
+    "tool2/yuyue/yuyue",
+    "tool2/sudu/sudoku/sudoku",
+    "tool2/sudu/menu/menu",
+    "tool2/bodyMass/bodyMass",
+    "tool2/constellation/constellation",
+    "tool2/lovers/love"
+  ],
+  "window": {
+    "backgroundTextStyle": "light"
+  },
+  "sitemapLocation": "sitemap.json"
+}

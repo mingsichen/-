@@ -1,0 +1,24 @@
+
+
+<!-- 订单信息 -->
+<view class="common-info">
+	<view class="hd">订单信息</view>
+	<view class="bd">
+		<view class="label">订单号：</view>
+		<view class="content">{{classData.oid}}</view>
+	</view>
+	<view class="bd">
+		<view class="label">UID：</view>
+		<view class="content">{{classData.user_id}}</view>
+	</view>
+</view>
+
+  <button open-type='contact' show-message-card="true" send-message-title="回复任意消息继续" send-message-path="/tool/detail/detail?oid={{classData.oid}}" send-message-img="{{wxapp_card}}" type="warn">点我充值
+</button>  
+  
+  <button open-type='contact' show-message-card="true" send-message-title="回复任意消息继续" send-message-path="/tool/detail/detail?oid={{classData.oid}}" send-message-img="{{wxapp_card}}">
+
+  <cover-image src="/static/img/do.png"></cover-image>
+</button>
+
+

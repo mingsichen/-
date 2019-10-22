@@ -1,0 +1,97 @@
+<view class="content">
+
+  <view class="tap">
+    <block wx:for="{{tabBar}}" wx:for-item="tab" wx:for-index="index" wx:key="id">
+      <view class="reser">
+        <image catchtap='open_tap' wx:if="{{isShow}}" src="{{tab.image}}"></image>
+        <image wx:else catchtap='close_tap' src="{{tab.image1}}"></image>
+      </view>
+    </block>
+  </view>
+
+
+
+  <view class="uni-tab-bar">
+    <swiper current="{{!isShow}}" style="height:100%">
+      <swiper-item>
+        <view class="bg">
+          <view class="bg_one">
+            <image src="/tool2/static/img/1.jpg" mode=""></image>
+          </view>
+          <view class="ipone">
+            <view class="frame">
+              <image src="/tool2/static/img/shuru.png" mode=""></image>
+            </view>
+            <view bindsubmit='formSubmit'>
+            <view class="input">
+              <input type="number" value="" placeholder="请输入手机号" placeholder-style="color:#FFFFFF;" maxlength="11" bindinput='blurPhone' />
+            </view>
+            <view class="btn"formType="" bindtap="submit" >
+              <image src="/tool2/static/img/Btn-3.png" mode=""></image>
+            </view>
+            </view>
+          </view>
+        </view>
+
+      </swiper-item>
+      <swiper-item>
+     
+        <view class="data">
+          
+           <view class="data_info" bindtap="dataInfo">
+            <view class="pic">
+              <image src="/tool2/static/img/ren1.png" mode=""></image>
+            </view>
+            <view class="data_text">
+              <text class="text1">职业介绍</text>
+              <text class="text2">游戏分剑仙、琴女、修罗，3个不同的职业。剑仙技能，琴女技能，修罗技能。不同的职业可以穿戴不同的装备和学习不同的技能。修罗装备、剑仙装备、琴女装备、不同职业基础属性不一样。
+</text>
+              <text class="text3">2019-8-26</text>
+            </view>
+          </view>
+       
+
+          <view class="data_info" bindtap="dataInfo">
+            <view class="pic">
+              <image src="/tool2/static/img/ren2.png" mode=""></image>
+            </view>
+            <view class="data_text">
+              <text class="text1">聊天系统介绍</text>
+              <text class="text2">玩家可以通过世界频道消息，系统公告提示知道游戏里知道其他玩家的一些信息；可以让玩家感觉到游戏的人气度；频道区分聊天内容，玩家可以更好的获取自己想要的信息；有了专门的聊天频道，帮会类竞技类活动玩法能够更好的激发玩家兴趣</text>
+              <text class="text3">2019-8-26</text>
+            </view>
+          </view>
+          <view class="data_info" bindtap="dataInfo">
+            <view class="pic">
+              <image src="/tool2/static/img/ren3.png" mode=""></image>
+            </view>
+            <view class="data_text">
+              <text class="text1">邮件系统介绍</text>
+              <text class="text2">如果玩家有未读邮件或未领取奖励时，前端在邮件图标上显示红点提示玩家；
+若邮箱无未读邮件且附件奖励已全部领取则红点消失；
+邮件开启等级：1级；
+</text>
+              <text class="text3">2019-8-26</text>
+            </view>
+          </view>
+          <view class="data_info" bindtap="dataInfo" >
+            <view class="pic">
+              <image src="/tool2/static/img/ren4.png" mode=""></image>
+            </view>
+            <view class="data_text">
+              <text class="text1">游戏背景介绍</text>
+              <text class="text2">《斗剑仙》一款仙侠题材的手机网络游戏，游戏讲述修仙人士对抗恶魔的修仙之路。游戏不仅有丰富的职业系统，还有着完善的职业成长系统；离线在线都能游戏，玩家可以在大地图上攻击野怪、获取资源。可以与其他玩家对战，还可以结盟，与盟友共同战斗。争夺排行榜的宝座，更有精英挑战，神秘之塔等待玩家发掘。在游戏中，玩家扮演一个修仙人士，发展壮大自身，并与其他玩家共同战斗和对抗。伴随着玩家的成长，玩家可以组成自己的小队伍，带领自己的小伙伴们走向胜利。</text>
+              <text class="text3">2019-8-26</text>
+            </view>
+          </view>
+
+        </view>
+
+
+      </swiper-item>
+
+    </swiper>
+
+  </view>
+
+</view>

@@ -1,0 +1,283 @@
+
+<view class="content data-v-460ad716">
+  <view class="top data-v-460ad716">
+    <view class="topBg data-v-460ad716">
+      <image class="top_img0 data-v-460ad716" src="/static/picture/mobile-top-bg.png" mode></image>
+      <image class="top_img1 data-v-460ad716" src="/static/picture/nav-img.png" mode></image>
+      <image class="top_img2 data-v-460ad716" src="/static/picture/mobile-top02.png" mode></image>
+    </view>
+    <view class="swiper data-v-460ad716">
+      <swiper :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000">
+			<swiper-item>
+				<image src="/static/picture/banner01.jpg" mode=""></image>
+			</swiper-item>
+			<swiper-item>
+				<image src="/static/picture/banner02.jpg" mode=""></image>
+			</swiper-item>
+			<swiper-item>
+				<image src="/static/picture/banner03.jpg" mode=""></image>
+			</swiper-item>
+		</swiper>
+    </view>
+    <view class="company data-v-460ad716">
+      <view class="company_item data-v-460ad716">
+        <view class="nav nav01 data-v-460ad716">
+          <image src="/static/picture/mobile-nav01.png" mode class="data-v-460ad716"></image>
+        </view>
+        <text class="data-v-460ad716">网站首页</text>
+      </view>
+      <view class="company_item data-v-460ad716">
+        <view class="nav nav02 data-v-460ad716">
+          <image src="/static/picture/mobile-nav02.png" mode class="data-v-460ad716"></image>
+        </view>
+        <text class="data-v-460ad716">产品服务</text>
+      </view>
+      <view class="company_item data-v-460ad716">
+        <view class="nav nav03 data-v-460ad716">
+          <image src="/static/picture/mobile-nav03.png" mode class="data-v-460ad716"></image>
+        </view>
+        <text class="data-v-460ad716">公司简介</text>
+      </view>
+      <view class="company_item data-v-460ad716">
+        <view class="nav nav04 data-v-460ad716">
+          <image src="/static/picture/mobile-nav04.png" mode class="data-v-460ad716"></image>
+        </view>
+        <text class="data-v-460ad716">联系我们</text>
+      </view>
+    </view>
+    <view class="serve_bg data-v-460ad716">
+      <view class="serve data-v-460ad716">
+        <view class="serve_text1 data-v-460ad716">服务范围</view>
+        <view class="serve_text2 data-v-460ad716">Scope of service</view>
+      </view>
+    </view>
+  </view>
+  <view class="content-boxes data-v-460ad716">
+    <view class="boxes_list data-v-460ad716">
+      <view class="container-fluid data-v-460ad716">
+        <view class="pic data-v-460ad716">
+          <image src="/static/picture/service01.png" mode class="data-v-460ad716"></image>
+          <view class="fluid_text data-v-460ad716">手机APP游戏</view>
+        </view>
+      </view>
+      <view class="container-fluid data-v-460ad716">
+        <view class="pic data-v-460ad716">
+          <image src="/static/picture/service02.png" mode class="data-v-460ad716"></image>
+          <view class="fluid_text data-v-460ad716">地方特色游戏</view>
+        </view>
+      </view>
+      <view class="container-fluid data-v-460ad716">
+        <view class="pic data-v-460ad716">
+          <image src="/static/picture/service03.png" mode class="data-v-460ad716"></image>
+          <view class="fluid_text data-v-460ad716">娱乐竞技游戏</view>
+        </view>
+      </view>
+      <view class="container-fluid data-v-460ad716">
+        <view class="pic data-v-460ad716">
+          <image src="/static/picture/service04.png" mode class="data-v-460ad716"></image>
+          <view class="fluid_text data-v-460ad716">微信H5游戏</view>
+        </view>
+      </view>
+    </view>
+    <view class="service-txt-boxes data-v-460ad716">
+      <view class="service-txt_item1 data-v-460ad716">
+        <view class="service-img-boxes data-v-460ad716">
+          <image src="/static/picture/service-icon01.png" mode class="data-v-460ad716"></image>
+        </view>
+        <view class="service-img-box data-v-460ad716">
+          <view class="serveTitle data-v-460ad716">『我们的服务』</view>
+          <view class="serverContent data-v-460ad716">我公司致力于定制开发手机网络游戏，涵盖APP、HTML5等多种版本。强大技术团队支持，开发周期短，上线效率高，快至7天即可上线运营。以客户为中心，打造高效的合作体验，游戏搭建从域名到服务器选购等我们可提供包办，全程一条龙服务。</view>
+        </view>
+      </view>
+      <view class="service-txt_item1 service-txt_item2 data-v-460ad716">
+        <view class="service-img-boxes data-v-460ad716">
+          <image src="/static/picture/service-icon02.png" mode class="data-v-460ad716"></image>
+        </view>
+        <view class="service-img-box data-v-460ad716">
+          <view class="serveTitle data-v-460ad716">『特色游戏定制』</view>
+          <view class="serverContent data-v-460ad716">根据您提供的游戏规则、大厅UI等要求，开发各类大众玩法游戏或地方性玩法游戏，定制专属地方特色游戏规则、融入地方性方言及特色人文景观画面，充分满足地区性玩家需求，提升玩家亲和度及用户留存，竞争更小，更易运营。</view>
+        </view>
+      </view>
+    </view>
+    <view class="serve_bg data-v-460ad716">
+      <view class="serve data-v-460ad716">
+        <view class="serve_text1 data-v-460ad716">产品优势</view>
+        <view class="serve_text2 data-v-460ad716">Product advantages</view>
+      </view>
+    </view>
+  </view>
+  <view class="productBg data-v-460ad716">
+    <view class="productBg1 data-v-460ad716">
+      <view class="productList data-v-460ad716">
+        <view class="product_item data-v-460ad716">
+          <view class="product_pic data-v-460ad716">
+            <image src="/static/picture/product-icon01.png" mode class="data-v-460ad716"></image>
+          </view>
+          <view class="product_content data-v-460ad716">专业美术设计从源头提高游戏画面质感，借以U3D游戏引擎还原精致画面。</view>
+        </view>
+        <view class="product_item data-v-460ad716">
+          <view class="product_pic data-v-460ad716">
+            <image src="/static/picture/product-icon02.png" mode class="data-v-460ad716"></image>
+          </view>
+          <view class="product_content data-v-460ad716">各类游戏融入创新多元化运营功能系统，搭配趣味性玩法，打破市场千篇一律。</view>
+        </view>
+        <view class="product_item data-v-460ad716">
+          <view class="product_pic data-v-460ad716">
+            <image src="/static/picture/product-icon03.png" mode class="data-v-460ad716"></image>
+          </view>
+          <view class="product_content data-v-460ad716">针对不同用户群开创多种代币模式，多重选择提升客户粘性，运营更精细。</view>
+        </view>
+        <view class="product_item data-v-460ad716">
+          <view class="product_pic data-v-460ad716">
+            <image src="/static/picture/product-icon04.png" mode class="data-v-460ad716"></image>
+          </view>
+          <view class="product_content data-v-460ad716">完善的后台管理系统，在线新增等玩家数据实时掌握，运营数据更全面。</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="system data-v-460ad716">
+    <view class="system_top data-v-460ad716">
+      <image src="/static/picture/product-img-title01.png" mode class="data-v-460ad716"></image>
+      <image src="/static/picture/product-img-title02.png" mode class="data-v-460ad716"></image>
+      <image src="/static/picture/product-img-title03.png" mode class="data-v-460ad716"></image>
+      <image src="/static/picture/product-img-title04.png" mode class="data-v-460ad716"></image>
+    </view>
+    <view class="system_list data-v-460ad716">
+      <view class="seList_item item0 data-v-460ad716">
+        <image src="/static/picture/product-img01-1.png" mode class="data-v-460ad716"></image>
+        <text class="data-v-460ad716">客服系统</text>
+      </view>
+      <view class="seList_item item1 data-v-460ad716">
+        <image src="/static/picture/product-img02-1.png" mode class="data-v-460ad716"></image>
+        <text class="data-v-460ad716">VIP等级</text>
+      </view>
+      <view class="seList_item item2 data-v-460ad716">
+        <image src="/static/picture/product-img03-1.png" mode class="data-v-460ad716"></image>
+        <text class="data-v-460ad716">商城道具</text>
+      </view>
+      <view class="seList_item item3 data-v-460ad716">
+        <image src="/static/picture/product-img04-1.png" mode class="data-v-460ad716"></image>
+        <text class="data-v-460ad716">任务活动</text>
+      </view>
+      <view class="seList_item item4 data-v-460ad716">
+        <image src="/static/picture/product-img05-1.png" mode class="data-v-460ad716"></image>
+        <text class="data-v-460ad716">排行榜系统</text>
+      </view>
+      <view class="seList_item item5 data-v-460ad716">
+        <image src="/static/picture/product-img06-1.png" mode class="data-v-460ad716"></image>
+        <text class="data-v-460ad716">好友功能</text>
+      </view>
+    </view>
+    <view class="serve_bg data-v-460ad716">
+      <view class="serve data-v-460ad716">
+        <view class="serve_text1 data-v-460ad716">服务保障</view>
+        <view class="serve_text2 data-v-460ad716">Service guarantee</view>
+      </view>
+    </view>
+  </view>
+  <view class="advantage data-v-460ad716">
+    <view class="advantage_list data-v-460ad716">
+      <view class="advantage_item data-v-460ad716">
+        <view class="advanPic  data-v-460ad716">
+          <image src="/static/picture/advantage01.png" mode class="data-v-460ad716"></image>
+        </view>
+        <view class="text textbg0 data-v-460ad716">
+          <view class="text1 data-v-460ad716">研发实力强</view>
+          <view class="text2 data-v-460ad716">技术团队从业经验足，骨干成员资历丰富，业界领先。</view>
+        </view>
+      </view>
+      <view class="advantage_item data-v-460ad716">
+        <view class="advanPic advanPic2 data-v-460ad716">
+          <image src="/static/picture/advantage02.png" mode class="data-v-460ad716"></image>
+        </view>
+        <view class="text textbg1 data-v-460ad716">
+          <view class="text1  data-v-460ad716">研发实力强</view>
+          <view class="text2 data-v-460ad716">技术团队从业经验足，骨干成员资历丰富，业界领先。</view>
+        </view>
+      </view>
+      <view class="advantage_item data-v-460ad716">
+        <view class="advanPic advanPic3 data-v-460ad716">
+          <image src="/static/picture/advantage03.png" mode class="data-v-460ad716"></image>
+        </view>
+        <view class="text textbg2 data-v-460ad716">
+          <view class="text1 data-v-460ad716">研发实力强</view>
+          <view class="text2 data-v-460ad716">技术团队从业经验足，骨干成员资历丰富，业界领先。</view>
+        </view>
+      </view>
+      <view class="advantage_item data-v-460ad716">
+        <view class="advanPic advanPic4 data-v-460ad716">
+          <image src="/static/picture/advantage04.png" mode class="data-v-460ad716"></image>
+        </view>
+        <view class="text textbg3 data-v-460ad716">
+          <view class="text1 data-v-460ad716">研发实力强</view>
+          <view class="text2 data-v-460ad716">技术团队从业经验足，骨干成员资历丰富，业界领先。</view>
+        </view>
+      </view>
+      <view class="advantage_item data-v-460ad716">
+        <view class="advanPic advanPic4 data-v-460ad716">
+          <image src="/static/picture/advantage05.png" mode class="data-v-460ad716"></image>
+        </view>
+        <view class="text textbg4 data-v-460ad716">
+          <view class="text1 data-v-460ad716">研发实力强</view>
+          <view class="text2 data-v-460ad716">技术团队从业经验足，骨干成员资历丰富，业界领先。</view>
+        </view>
+      </view>
+      <view class="advantage_item data-v-460ad716">
+        <view class="advanPic advanPic6 data-v-460ad716">
+          <image src="/static/picture/advantage06.png" mode class="data-v-460ad716"></image>
+        </view>
+        <view class="text textbg5 data-v-460ad716">
+          <view class="text1 data-v-460ad716">研发实力强</view>
+          <view class="text2 data-v-460ad716">技术团队从业经验足，骨干成员资历丰富，业界领先。</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="serve_bg data-v-460ad716">
+    <view class="serve data-v-460ad716">
+      <view class="serve_text1 data-v-460ad716">公司简介</view>
+      <view class="serve_text2 data-v-460ad716">Company profile</view>
+    </view>
+  </view>
+  <view class="companyInfo data-v-460ad716">
+    <view class="info_text1 data-v-460ad716">成都开心时刻科技有限公司作为四川成都颇具实力的专业游戏APP开发商，技术班底资历深厚、合作流程高效畅通 ,开发的各类大众游戏玩法及地方性独特玩法多达上百种，现有成熟游戏平台数十套，一条龙式协助投资者完成开发搭建服务器选购租用以至游戏上线。</view>
+    <view class="info_text2 data-v-460ad716">成都开心时刻科技有限公司作为四川成都颇具实力的专业游戏APP开发商，技术班底资历深厚、合作流程高效畅通 ,开发的各类大众游戏玩法及地方性独特玩法多达上百种，现有成熟游戏平台数十套，一条龙式协助投资者完成开发搭建服务器选购租用以至游戏上线。</view>
+  </view>
+  <view class="serve_bg data-v-460ad716">
+    <view class="serve data-v-460ad716">
+      <view class="serve_text1 data-v-460ad716">联系我们</view>
+      <view class="serve_text2 data-v-460ad716">Contact us</view>
+    </view>
+  </view>
+  <view class="contactUs data-v-460ad716">
+    <view class="contactList data-v-460ad716">
+      <view class="conPic data-v-460ad716">
+        <image src="/static/picture/contact-icon01.png" mode class="data-v-460ad716"></image>
+      </view>
+      <view class="name data-v-460ad716">联系人</view>
+      <view class="name data-v-460ad716">李先生</view>
+    </view>
+    <view class="contactList cont2 data-v-460ad716">
+      <view class="conPic data-v-460ad716">
+        <image src="/static/picture/contact-icon02.png" mode class="data-v-460ad716"></image>
+      </view>
+      <view class="name data-v-460ad716">联系电话</view>
+      <view class="name data-v-460ad716">李先生</view>
+    </view>
+    <view class="contactList cont3 data-v-460ad716">
+      <view class="conPic data-v-460ad716">
+        <image src="/static/picture/contact-icon03.png" mode class="data-v-460ad716"></image>
+      </view>
+      <view class="name data-v-460ad716">联系地址</view>
+      <view class="name data-v-460ad716">四川省成都市高新区九兴大道10号1幢</view>
+    </view>
+    <view class="contactList cont2 data-v-460ad716">
+      <view class="conPic data-v-460ad716">
+        <image src="/static/picture/contact-icon04.png" mode class="data-v-460ad716"></image>
+      </view>
+      <view class="name data-v-460ad716">邮箱</view>
+      <view class="name data-v-460ad716">11112222@qq.com</view>
+    </view>
+  </view>
+</view>

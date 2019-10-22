@@ -1,0 +1,38 @@
+<view class="content data-v-6f51a80c">
+  <view class="uni-padding-wrap banner data-v-6f51a80c">
+    <view class="page-section swiper data-v-6f51a80c">
+      <view class="page-section-spacing data-v-6f51a80c">
+        <swiper class="swiper data-v-6f51a80c" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+          <swiper-item class="data-v-6f51a80c">
+            <view class="swiper-item uni-bg-red data-v-6f51a80c">
+              <image src="/tool2/static/banner/swiper.jpg" mode class="data-v-6f51a80c"></image>
+            </view>
+          </swiper-item>
+          <swiper-item class="data-v-6f51a80c">
+            <view class="swiper-item uni-bg-red data-v-6f51a80c">
+              <image src="/tool2/static/banner/swiper2.jpg" mode class="data-v-6f51a80c"></image>
+            </view>
+          </swiper-item>
+          <swiper-item class="data-v-6f51a80c">
+            <view class="swiper-item uni-bg-red data-v-6f51a80c">
+              <image src="/tool2/static/banner/swiper3.jpg" mode class="data-v-6f51a80c"></image>
+            </view>
+          </swiper-item>
+        </swiper>
+      </view>
+    </view>
+  </view>
+  <view class="tip data-v-6f51a80c">
+    <view class="tip_text data-v-6f51a80c">大家好，我是少年刀剑笑，以后我会开发更多好玩的在线小工具到本小程序，谢谢大家的支持。</view>
+    <view class="tip_text data-v-6f51a80c">小提示：部分工具有些机型可能无法使用！</view>
+  </view>
+  <view class="tip_list data-v-6f51a80c">
+    <navigator url="/tool2/font/font" class="data-v-6f51a80c">
+      <view class="list_item data-v-6f51a80c">
+        <view class="text data-v-6f51a80c">尖叫字体生成</view>
+        <image src="/tool2/static/img/content.png" mode class="data-v-6f51a80c"></image>
+      </view>
+    </navigator>
+  
+  </view>
+</view>

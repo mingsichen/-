@@ -1,0 +1,306 @@
+
+
+page {
+	font-size: 16px;
+	color: #333;
+}
+
+/*头部*/
+.summary {
+	background: white;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/*logo*/
+.summary .logo {
+	margin: 15px 0;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+/*状态*/
+.status {
+	margin: 5px;
+}
+
+/*操作*/
+.operate {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 80%;
+	margin: 15px auto;
+}
+
+/*操作按钮*/
+.operate .button {
+	width: 90px;
+	border-radius: 3px;
+	padding: 8px 13px;
+	margin: 15px;
+}
+
+/*取消*/
+.operate .cancel {
+	background: white;
+	border: 1px solid #ccc;
+	color: #666;
+}
+
+/*支付*/
+.operate .payment {
+	background: #f60;
+	color: white;
+}
+
+
+/*.摘要信息*/
+
+/*实付*/
+.item .total {
+	width: 100%;
+	text-align: right;
+	padding-right: 10px;
+	color: #f60;
+}
+
+/*待支付*/
+.item .total:before {
+	content: "实付 ￥";
+}
+
+.info {
+	padding-bottom: 5px;
+} 
+
+/*联系商家*/
+.contact {
+	width: 100px;
+	height: 20px;
+	margin: 8px auto;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	padding: 8px 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	color: #666;
+	font-size: 14px;
+}
+
+/*电话图标*/
+.telephone {
+	width: 20px;
+	height: 20px;
+}
+
+/*通用列表头*/
+.common-info {
+	margin-top: 10px;
+	color: #6e6e6e;
+	font-size: 14px;
+	background: white;
+}
+
+.common-info .hd {
+	padding: 14px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 6px;
+}
+
+.common-info .bd {
+	padding-left: 14px;
+	display: flex;
+	flex-direction: row;
+	align-items: top;
+	line-height: 220%;
+}
+
+/*模块标题*/
+.common-info .caption {
+	margin-left: 5px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #333;
+	line-height: 200%;
+}
+
+.common-info .label {
+	width: 80px;
+}
+
+.common-info:last-child {
+	margin-bottom: 10px;
+}
+/*checkout.wxss*/
+
+.container {
+	margin-bottom: 120rpx;
+}
+
+/*地址容器*/
+.address-container {
+	margin-bottom: -10px;
+}
+
+/*收货地址*/
+.address {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: white;
+	position: relative;
+}
+
+.address .title {
+	font-size: 14px;
+}
+
+/*地理定位图标*/
+.location {
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+}
+
+/*航邮花边*/
+.mail {
+	width: 100%;
+	margin-bottom: 32rpx;
+}
+
+/*.商品清单信息*/
+
+/*备注信息*/
+.remark {
+	background: white;
+	margin-top: 10px;
+
+}
+
+.title-label {
+	flex: 1;
+}
+
+.arrow {
+	flex: 1;
+}
+
+.subtitle-label {
+	text-align: right;
+	margin-right: 30px;
+	flex: 4;
+}
+
+/*备注文字截取*/
+.remark-title {
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+	white-space: nowrap;
+}
+
+/*picker选择器*/
+picker {
+	flex: 4;
+}
+
+.disperse {
+	justify-content: space-between;
+}
+/*.备注信息*/
+
+
+/*底部操作区域*/
+.footer {
+	display: flex;
+	flex-direction: row;
+	height: 100rpx;
+	line-height: 100rpx;
+	color: white;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	font-size: 16px;
+}
+
+.footer .payment {
+	width: 70%;
+	background: #3d3d3f;
+	padding-left: 15px;
+}
+
+.footer .payment:before {
+	content: "待支付￥"
+}
+
+.footer .checkout {
+	width: 30%;
+	background: #38ca73;
+	text-align: center;
+}
+
+/*.底部操作区域*/
+
+/*用户地址项*/
+
+/*每一项*/
+.address-container .item {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 0;
+	border-bottom: 1px solid #ddd;
+	background: white;
+	margin-left: 0;
+	line-height: initial;
+}
+
+/*主体内容*/
+.address-container .item .bd {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+/*收件人信息*/
+.address-container .item .bd .receiver {
+	color: black;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	margin: 10px 0;
+	margin-left: 10px;
+}
+
+/*姓氏*/
+.address-container .item .bd .receiver .firstname {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*性别*/
+.address-container .item .bd .receiver .gender {
+	font-size: 12px;
+	margin: 0 10px;
+}
+
+/*手机号码*/
+.address-container .item .bd .receiver .mobile {
+	font-size: 12px;
+}
+
+/*收件地址*/
+.address-container .item .bd .detail {
+	color: #999;
+	font-size: 14px;
+	margin: 5px 0;
+	margin-left: 10px;
+}

@@ -1,0 +1,72 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.8.3",
+	"appid": "wx3f1993b5e216575e",
+	"projectname": "%E5%B0%91%E5%B9%B4%E5%88%80%E5%89%91%E7%AC%91",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "tool/detail/detail",
+					"pathName": "tool/detail/detail",
+					"query": "oid=2019102001414086763&amount=600&user_id=195&order_time=",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "tool2/index/index",
+					"pathName": "tool2/index/index",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "tool/main/main",
+					"pathName": "tool/main/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "tool2/sudu/menu/menu",
+					"pathName": "tool2/sudu/menu/menu",
+					"query": ""
+				}
+			]
+		}
+	}
+}

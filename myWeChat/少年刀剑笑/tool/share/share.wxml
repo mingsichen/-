@@ -1,0 +1,8 @@
+    <view wx:if='{{bg_image}}'>
+    <button class='btn' bindtap='go_back'>返回</button>
+    <button class='btn2'  open-type='contact' show-message-card="true" send-message-title="点击领取礼包" send-message-path="/tool/font/font" send-message-img="{{wxapp_card_gift}}" style="margin:0;padding:0;">
+      <image  src='{{bg_image}}'></image>
+    </button>
+    </view>
+
+  

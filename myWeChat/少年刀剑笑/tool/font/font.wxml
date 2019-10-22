@@ -1,0 +1,2 @@
+<view class="content"><web-view src="{{classData.url}}"></web-view></view>
+<!-- <view class="content"><web-view src="{{classData.url}}"></web-view></view> -->
